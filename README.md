@@ -1,4 +1,4 @@
-# The Winning Solution for the Learning To Run Challenge 2017 by NNAISENSE
+# The Winning Solution for the Learning To Run Challenge 2017 by [NNAISENSE](nnaisense.com)
 
 This repository contains the code used to train the winning controller for the [Learning to Run Challenge 2017](https://www.crowdai.org/challenges/nips-2017-learning-to-run) along with the resulting models.
 
