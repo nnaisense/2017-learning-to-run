@@ -85,7 +85,7 @@ class SubmitRunEnv:
     def __init__(self, visualize):
         from osim.http.client import Client
         remote_base = "http://grader.crowdai.org:1729"
-        self.crowdai_token = "05e9d84f485cfeca02016dfd4d18163c"
+        self.crowdai_token = "token"
         self.client = Client(remote_base)
         self.first = True
         self.visualize = visualize
