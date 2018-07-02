@@ -2,7 +2,7 @@
 
 This repository contains the code used to train the winning controller for the [Learning to Run Challenge 2017](https://www.crowdai.org/challenges/nips-2017-learning-to-run) along with the resulting models.
 
-Note, however, that reproducing the results using this code is hard due to several reasons. First, the learning process (mostly in Stage I: Global Policy Optimization) was manually supported -- multiple runs were executed and visually inspected to select the most promissing one for the subsequent stages. Second, the original random seeds were lost. Third, the whole learning process required significant computational resources (at least a couple of weeks of a 128-CPUs machine). You have been warned.
+Note, however, that reproducing the results using this code is hard due to several reasons. First, the learning process (mostly in Stage I: Global Policy Optimization) was manually supported -- multiple runs were executed and visually inspected to select the most promising one for the subsequent stages. Second, the original random seeds were lost. Third, the whole learning process required significant computational resources (at least a couple of weeks of a 128-CPUs machine). You have been warned.
 
 ## Cite
 ```bibtex
@@ -53,7 +53,7 @@ pip install git+https://github.com/stanfordnmbl/osim-rl.git@a49a7de
 
 ## Learning
 
-The parameters used in the following commands are examplary. The commands do not guarantee to obtain our models (or good models at all).
+The parameters used in the following commands are exemplary. The commands do not guarantee to obtain our models (or good models at all).
 
 ### Stage I: Global Policy Initialization
 
