@@ -4,6 +4,12 @@ This repository contains the code used to train the winning controller for the [
 
 Note, however, that reproducing the results using this code is hard due to several reasons. First, the learning process (mostly in Stage I: Global Policy Optimization) was manually supported -- multiple runs were executed and visually inspected to select the most promising one for the subsequent stages. Second, the original random seeds were lost. Third, the whole learning process required significant computational resources (at least a couple of weeks of a 128-CPUs machine). You have been warned.
 
+## Teaser
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=8xLghMb97T0"><img src="https://img.youtube.com/vi/8xLghMb97T0/0.jpg" alt="NNAISENSE Learning to Run 2017 Teaser"></a>
+</div>
+
 ## Cite
 ```bibtex
 @incollection{jaskowski2018rltorunfast,
