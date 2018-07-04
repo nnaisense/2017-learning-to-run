@@ -18,6 +18,32 @@ Note, however, that reproducing the results using this code is hard due to sever
 }
 ```
 
+## Results
+
+|                    |      | noisy          | plain          | robust         |
+|--------------------|------|----------------|----------------|----------------|
+| all episodes       | avg  | 43.53          | 43.23          | 41.52          |
+|                    | conf | [43.26, 43.79] | [42.94, 43.50] | [41.25, 41.78] |
+|                    | SD   | 8.56           | 9.14           | 8.56           |
+|                    | max  | 47.24          | 47.13          | 45.81          |
+|                    |      |                |                |                |
+| completed episodes | avg  | 46.01          | 46.06          | 43.92          |
+|                    | conf | [46.00, 46.02] | [46.05, 46.07] | [43.89, 43.94] |
+|                    | SD   | 0.35           | 0.38           | 0.73           |
+|                    |      |                |                |                |
+| max5avg10          |      | 45.91          | 45.89          | 43.91          |
+| % fall             |      | 8.75           | 9.98           | 8.20           |
+| % fall confidence  |      | [7.87, 9.65]   | [9.07, 10.95]  | [7.34, 9.04]   |
+|                    |      |                |                |                |
+| # episodes         |      | 4000           | 4000           | 4000           |
+
+The upper section shows the statistics for all episodes, including those
+where the runner fell down. The middle section measures performance based 
+only on those episodes which completed the entire run (i.e. without falling down). 
+The 'best of 5 runs of 10 random episodes' and 95% confidence intervals were obtained with 
+bootstrapping; all averages were computed over 4000 episodes.
+
+
 ## Install
 ```bash
 sudo apt-get install mpich zlib1g-dev cmake
